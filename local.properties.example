@@ -1,0 +1,6 @@
+# Copy the two ledmatrix lines into local.properties (git ignores it). Android Studio adds sdk.dir itself.
+sdk.dir=/path/to/Android/sdk
+# Your deployment of the LED Matrix Studio server (github.com/smartcreations/led-matrix-ai).
+ledmatrix.serverUrl=https://your-server.vercel.app
+# The same DEVICE_KEY you set on the server.
+ledmatrix.deviceKey=change-me
